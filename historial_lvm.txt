@@ -1,0 +1,174 @@
+    1  sudo fdisk -l
+    2  exit
+    3  fdisk -l 
+    4  sudo fdisk -l 
+    5  sudo fdisk /dev/sdb
+    6  ls -l 
+    7  cat carpeta_compartida/
+    8  cd carpeta_compartida/
+    9  ls -l
+   10  cat script_Enable_ssh_password.sh 
+   11  ls -l
+   12  cat Readme.md 
+   13  cd ..
+   14  git clone https://github.com/juan123-yop/TP2_Garaycochea_juan_211.git
+   15  sudo fdisk 
+   16  sudo fdisk -l
+   17  exit
+   18  whoami
+   19  uname -a
+   20  last
+   21  free -h
+   22  top
+   23  history
+   24  exit
+   25  fdisk 'l
+   26  sudo fdisk -l
+   27  sudo fdisk /dev/sdd
+   28  sudo fdisk -l
+   29  sudo mkfs.ext4 /dev/sdd1
+   30  sudo mkfs.ext4 /dev/sdd2
+   31  sudo mkfs.ext4 /dev/sdd4
+   32  sudo mkfs.ext4 /dev/sdd6
+   33  sudo mkfs.ext4 /dev/sdd5
+   34  sudo  mkdir -p/mnt/{sdd1,sdd2,sdd5,ssd6}
+   35  sudo  mkdir -p /mnt/{sdd1,sdd2,sdd5,ssd6}
+   36  ls -la /mnt/
+   37  df -h
+   38  sudo mount /dev/sdd1 /mnt/sdd1
+   39  sudo mount /dev/sdd2 /mnt/sdd2
+   40  sudo mount /dev/sdd5 /mnt/sdd5
+   41  sudo mount /dev/sdd6 /mnt/sdd6
+   42  sudo  mkdir -p /mnt/{sdd1,sdd2,sdd5,sdd6}
+   43  sudo mount /dev/sdd6 /mnt/sdd6
+   44  df -h
+   45  git clone https://github.com/juan123-yop/TP2_Garaycochea_juan.git
+   46  whoami
+   47  pwd
+   48  cd TP2_Garaycochea_juan
+   49  cd ..
+   50  ssh-keygen -t ed25519
+   51  ls -l
+   52  ls -l .ssh/
+   53  cat id_ed25519.pub
+   54  cat .ssh/id_ed25519.pub
+   55  cd TP2_Garaycochea_juan
+   56  ls -l
+   57  git add .
+   58  git commit -m "trabajo"
+   59  cd TP2_Garaycochea_juan
+   60  git add .
+   61  git status
+   62  git push
+   63  exitexit
+   64  t
+   65  cd TP2_Garaycochea_juan
+   66  git push
+   67  ls -l
+   68  status
+   69  git status
+   70  git push
+   71  git add .
+   72  git commit -m "archivos"
+   73  exit 
+   74  ls -l
+   75  cd TP2_Garaycochea_juan
+   76  git add .
+   77  git commit -m
+   78  git commit -m "archivo"
+   79  git config --global user.email "garaycocheajuan2@gmail.com"
+   80  git push
+   81  cd ..
+   82  cd TP2_Garaycochea_juan_211
+   83  ls -l
+   84  git add .
+   85  git commit -m "archivos"
+   86  git push
+   87  exit 
+   88  cd TP2_Garaycochea_juan
+   89  ls -l
+   90  sudo fdisk -l
+   91  sudo fdisk /dev/sdc
+   92  sudo fdisk -l
+   93  sudo fdisk /dev/sdd
+   94  sudo fdisk -l
+   95  sudo fdisk /dev/sdd
+   96  sudo fdisk -l
+   97  free
+   98  free -h
+   99  sudo mkswap /dev/sdd1
+  100  sudo swapon /dev/sdd1
+  101  free -h
+  102  swapon -s
+  103  cat /proc/swaps
+  104  sudo fdisk /dev/sdc
+  105  sudo wipefs -a /dev/sdc1
+  106  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+  107  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5
+  108  historyal
+  109  hystorial
+  110  historial
+  111  ls -l
+  112  cat historial_lvm.txt 
+  113  sudo fdisk -l
+  114  sudo fdisk /dev/sdd
+  115  sudo fdisk -l
+  116  sudo fdisk /dev/sdd
+  117  sudo fdisk -l
+  118  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+  119  sudo pvs
+  120  sudo vgs
+  121  sudo vgcreate vg_datos /dev/sdc1 /dev/sdd2
+  122  sudo vgs
+  123  sudo pvs
+  124  sudo vgcreate vg_web /dev/sdc2
+  125  sudo pvs
+  126  sudo lvcreate -L 1G vg_web -n lv_web1
+  127  sudo lvcreate -L 512M vg_web -n lv_web2
+  128  sudo lvcreate -L 512M vg_web -n lv_web3
+  129  sudo lvs
+  130  sudo pvs
+  131  sudo fdisk -l
+  132  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+  133  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+  134  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+  135  ls -l
+  136  sudo fdisk -l
+  137  sudo pvs
+  138  sudo lvs
+  139  sudo vgs
+  140  cd ..
+  141  ls 'l
+  142  ls -l
+  143  cat carpeta_compartida/
+  144  cd carpeta_compartida/
+  145  ls -l
+  146  cd ..
+  147  cd TP2_Garaycochea_juan_211/
+  148  ls -l
+  149  cd ..
+  150  clean
+  151  clear
+  152  sudo fdisk
+  153  sudo fdisk -l
+  154  cd TP2_Garaycochea_juan
+  155  ls -l
+  156  sudo lvs
+  157  sudo pvs
+  158  sudo vgs
+  159  cat lvs.txt 
+  160  cat pvs.txt 
+  161  cat pvs
+  162  cat vgs.txt
+  163  cd ..
+  164  ls -l
+  165  cd TP2_Garaycochea_juan_211/
+  166  ls -l
+  167  cat lvs.txt 
+  168  clear
+  169  cd ..
+  170  cd TP2_Garaycochea_juan
+  171  cat lvs.txt
+  172  cat pvs.txt 
+  173  sudo lvs
+  174  sudo pvs > pvs.txt
